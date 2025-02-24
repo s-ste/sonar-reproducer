@@ -1,6 +1,6 @@
 # Sonar false positive reproducer
 
-1. Start a local SonarQube in docker from the latest version:
+1. Start a local SonarQube in docker from the latest version at the time of creation, specifically this [one for ARM64](https://hub.docker.com/layers/library/sonarqube/latest/images/sha256-8cc3d4f2a50c426d9a6df5ca9be19fcf6d9577066f89f3a0b846094ad0cf2ced):
 
 ```
 docker run -d --name sonarqube -p 9000:9000 sonarqube:latest
