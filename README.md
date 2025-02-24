@@ -1,4 +1,4 @@
-# Sonar false positive reproducer
+# Sonar false positive reproducer for java:S4449
 
 1. Start a local SonarQube in docker from the latest version at the time of creation, specifically this [one for ARM64](https://hub.docker.com/layers/library/sonarqube/latest/images/sha256-8cc3d4f2a50c426d9a6df5ca9be19fcf6d9577066f89f3a0b846094ad0cf2ced):
 
